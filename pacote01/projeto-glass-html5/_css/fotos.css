@@ -1,0 +1,25 @@
+#album-fotos {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#album-fotos li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#album-fotos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #474747;
+    transition: transform 0.3s ease, border 0.3s ease;
+    display: block;
+}
+
+#album-fotos img:hover {
+    transform: scale(1.2);
+    border: 2px solid #474747;
+}
